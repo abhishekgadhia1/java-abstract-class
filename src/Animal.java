@@ -1,4 +1,8 @@
 
-public class Animal {
+public abstract class Animal {
 
+	int age;
+	String name;
+	
+	public abstract void makeSound();
 }
